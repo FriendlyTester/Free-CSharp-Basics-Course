@@ -31,14 +31,19 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.3.9.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="WebDriver">
       <HintPath>..\packages\Selenium.WebDriver.3.9.0\lib\net45\WebDriver.dll</HintPath>
     </Reference>
-    <Reference Include="System.Drawing" />
+    <Reference Include="WebDriver.Support">
+      <HintPath>..\packages\Selenium.Support.3.9.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="lessons\A_Syntax.cs" />
+    <Compile Include="lessons\C_Types.cs" />
+    <Compile Include="lessons\B_ClassesAndObjects.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
