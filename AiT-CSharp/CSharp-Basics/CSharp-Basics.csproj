@@ -44,6 +44,7 @@
     <Compile Include="lessons\A_Syntax.cs" />
     <Compile Include="lessons\C_Types.cs" />
     <Compile Include="lessons\B_ClassesAndObjects.cs" />
+    <Compile Include="lessons\D_Variables.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
