@@ -61,6 +61,7 @@
     <Compile Include="lessons\N_CodeComments.cs" />
     <Compile Include="nunitlessons\A_CreatingATest.cs" />
     <Compile Include="nunitlessons\B_CreatingATestFixture.cs" />
+    <Compile Include="nunitlessons\C_Assertions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
