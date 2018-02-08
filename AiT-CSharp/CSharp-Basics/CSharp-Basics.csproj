@@ -53,6 +53,9 @@
     <Compile Include="lessons\J_AccessModifiers.cs" />
     <Compile Include="anothernamespace\J_DifferentModifiers.cs" />
     <Compile Include="lessons\K_Inheritance.cs" />
+    <Compile Include="lessons\L_Polymorphism.cs" />
+    <Compile Include="anothernamespace\SubClassWithWaitMethod.cs" />
+    <Compile Include="anothernamespace\SuperClassWithWaitMethod.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
