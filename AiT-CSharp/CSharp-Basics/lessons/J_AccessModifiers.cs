@@ -27,10 +27,18 @@ namespace CSharpBasics.lessons
             J_DifferentModifiersSamePackage differentModifiers = new J_DifferentModifiersSamePackage();
             differentModifiers.c = 1;
             differentModifiers.methodC();
+
+            //Uncomment the following line before building this lesson, so you can see the failure.
+            //I have to comment it out otherwise the solution won't build for the other lessons
+            //differentModifiers.b = 1;
+
+            //Uncomment the following line before building this lesson, so you can see the failure.
+            //I have to comment it out otherwise the solution won't build for the other lessons
             //differentModifiers.a = 1; //this is a private variable and cannot be accessed
-            differentModifiers.b = 1;
+
             //differentModifiers.methodA(); //This is a private method and cannot be accessed
-            differentModifiers.methodB();
+            //Uncomment the following line before building this lesson, so you can see the failure.
+            //differentModifiers.methodB();
         }
     }
 
@@ -52,7 +60,7 @@ namespace CSharpBasics.lessons
 
 
     //Now even though J_DifferentModifiers is in a different package, if we extend it we should have access to the protected method.
-    //We extend a class using the extends keyword, followed by the name of the class we wish to extend
+    //We extend a class using the extends symbol which is :, followed by the name of the class we wish to extend
     //We know have access to all the protected and public methods on J_DifferentModifiers.
     class ExtendClassInDifferentPackage : J_DifferentModifiers
     {

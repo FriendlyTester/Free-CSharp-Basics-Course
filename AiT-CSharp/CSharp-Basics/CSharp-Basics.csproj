@@ -52,6 +52,7 @@
     <Compile Include="lessons\I_Encapsulation.cs" />
     <Compile Include="lessons\J_AccessModifiers.cs" />
     <Compile Include="anothernamespace\J_DifferentModifiers.cs" />
+    <Compile Include="lessons\K_Inheritance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
