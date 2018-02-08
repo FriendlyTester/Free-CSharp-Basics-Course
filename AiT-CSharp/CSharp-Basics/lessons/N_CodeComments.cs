@@ -1,6 +1,9 @@
 ﻿using System;
 namespace CSharpBasics.lessons
 {
+    /// <summary>
+    /// A summary of the class
+    /// </summary>
     public class N_CodeComments
     {
         //So in VS if you type /// and press <enter> you'll get this
