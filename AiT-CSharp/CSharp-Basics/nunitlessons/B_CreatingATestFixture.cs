@@ -10,20 +10,20 @@ namespace CSharpBasics.nunitlessons
         [SetUp]
         public void SetUp()
         {
-            Console.WriteLine("I'm doing something to setup the system ready for the test");
+            TestContext.Progress.WriteLine("I'm doing something to setup the system ready for the test");
         }
 
         //This method will be called after each test
         [TearDown]
         public void Teardown()
         {
-            Console.WriteLine("I'm doing something to tidy up after the test");
+            TestContext.Progress.WriteLine("I'm doing something to tidy up after the test");
         }
 
         [Test]
         public void TestOne()
         {
-            Console.WriteLine("I'm a test doing some stuff");
+            TestContext.Progress.WriteLine("I'm a test doing some stuff");
         }
 
         /**
@@ -40,14 +40,14 @@ namespace CSharpBasics.nunitlessons
         [OneTimeSetUp]
         public static void SuiteSetUp()
         {
-            Console.WriteLine("I'm doing something to setup the system ready for this test fixture");
+            TestContext.Progress.WriteLine("I'm doing something to setup the system ready for this test fixture");
         }
 
         //This method will be called after each test
         [OneTimeTearDown]
         public static void SuiteTeardown()
         {
-            Console.WriteLine("I'm doing something to tidy up after this test fixture");
+            TestContext.Progress.WriteLine("I'm doing something to tidy up after this test fixture");
         }
 
         /**
