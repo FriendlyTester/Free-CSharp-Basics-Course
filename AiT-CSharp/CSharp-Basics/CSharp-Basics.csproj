@@ -49,12 +49,16 @@
     <Compile Include="lessons\F_Operators.cs" />
     <Compile Include="lessons\G_ControlFlow.cs" />
     <Compile Include="lessons\H_Abstraction.cs" />
+    <Compile Include="lessons\I_Encapsulation.cs" />
+    <Compile Include="lessons\J_AccessModifiers.cs" />
+    <Compile Include="anothernamespace\J_DifferentModifiers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="lessons\" />
+    <Folder Include="anothernamespace\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
