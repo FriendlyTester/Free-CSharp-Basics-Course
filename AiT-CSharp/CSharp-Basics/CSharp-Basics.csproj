@@ -57,6 +57,7 @@
     <Compile Include="anothernamespace\SubClassWithWaitMethod.cs" />
     <Compile Include="anothernamespace\SuperClassWithWaitMethod.cs" />
     <Compile Include="lessons\M_Decomposition.cs" />
+    <Compile Include="lessons\N_CodeComments.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
