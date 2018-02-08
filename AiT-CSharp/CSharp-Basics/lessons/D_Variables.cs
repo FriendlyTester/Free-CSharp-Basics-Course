@@ -1,5 +1,4 @@
 ﻿using System;
-using NUnit.Framework;
 
 namespace CSharpBasics.lessons
 {
@@ -34,6 +33,7 @@ namespace CSharpBasics.lessons
             //It's specific to this method.
             //Cannot be set externally or used anywhere else in the class, only this method.
             int a = 14;
+            Console.Write(a);
         }
     }
 }

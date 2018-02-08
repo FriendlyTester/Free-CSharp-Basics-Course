@@ -45,6 +45,7 @@
     <Compile Include="lessons\C_Types.cs" />
     <Compile Include="lessons\B_ClassesAndObjects.cs" />
     <Compile Include="lessons\D_Variables.cs" />
+    <Compile Include="lessons\E_Methods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
